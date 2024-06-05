@@ -5,6 +5,7 @@ from .utils import decode_token
 
 class IsOrganization(permissions.BasePermission):
 
+
     def has_permission(self, request, view):
         token = request.headers.get('Authorization')
 
