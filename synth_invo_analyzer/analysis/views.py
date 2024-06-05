@@ -87,3 +87,4 @@ def format_chart_data(chart_data):
         }
         response.append(formatted_data)
     return response
+ 
