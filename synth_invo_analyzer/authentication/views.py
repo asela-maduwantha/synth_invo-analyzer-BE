@@ -353,6 +353,7 @@ def accept_request(request, request_id):
 
 
 
+
 @api_view(['POST'])
 def dismiss_request(request, request_id):
     user_id = request.data.get('user_id')
